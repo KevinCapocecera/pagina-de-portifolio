@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg, gray, black);
+
+    width: auto;
+    height: 930px;
+    padding: 10px;
+    gap: 10px;
+        
+}
+.perfil {
+    
+    padding: 10px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0.89);
+
+    border-radius: 10px;
+    
+}
+.dados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: small;
+
+    
+}
+p{
+    
+    margin: 0px;
+    
+    
+}
+h1{
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 900;
+    color: rgb(231, 247, 19);
+    margin: 0px;
+    font-size: 60px;
+}
+.bio{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    background-color: rgb(85, 85, 85, 0.89);
+    color: rgb(219, 219, 219);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: justify;
+    background-color: rgba(145, 145, 145, 0.89);
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+
+    gap: 25px;
+}
+.instagram{
+    
+    width: 100px;
+    height: 100px;
+    
+}
+.github{
+    
+    width: 100px;
+    height: 100px;
+    
+}
+.linkedin{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    margin: 0px;
+}
+h2:hover{
+    transition-duration: 1s;
+    color:rgb(231, 247, 19);
+}
+p:hover{
+    transition-duration: 1s;
+    color:rgb(231, 247, 19);
+    margin: 0px;
+    
+    
+}
+.github:hover{
+    transition-duration: 0.3s;
+    filter: drop-shadow(-8px 10px 4px rgb(231, 247, 19));
+}
+.linkedin:hover{
+    transition-duration: 0.3s;
+    filter: drop-shadow(-8px 10px 4px rgb(231, 247, 19));
+}
+.instagram:hover{
+    transition-duration: 0.3s;
+    filter: drop-shadow(-8px 10px 4px rgb(231, 247, 19));
+}
